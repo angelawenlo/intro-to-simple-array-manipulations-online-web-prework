@@ -23,7 +23,7 @@ def shift_with_args(ice_cream_brands)
 end
 
 def using_concat (all_my_favs, more_favs)
-    all_my_favs = my_favorite_things.concat(more_favs)
+    @all_my_favs = @my_favorite_things.concat(more_favs)
 end
 
 def using_insert (list_of_esoteric_programming_languages, another_esoteric_language)
